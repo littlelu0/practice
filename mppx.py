@@ -1,5 +1,5 @@
 nums=[6,11,7,9,4,2,1]
-
+print('要排序的数字为：', str(nums))
 i = 0
 while i < 7:
     j = 0
@@ -11,4 +11,4 @@ while i < 7:
             nums[i] = x
         j += 1
     i += 1
-print(nums[6])
+print('最大的数字为：', str(nums[6]))
